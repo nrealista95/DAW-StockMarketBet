@@ -7,7 +7,19 @@ body {
     height: 16px;
     vertical-align: text-bottom;
   }
-  
+
+  #file-upload {
+    position: relative;
+    overflow: hidden;
+  }
+  #file-upload-input {
+    position: absolute;
+    font-size: 50px;
+    opacity: 0;
+    right: 0;
+    top: 0;
+  }
+
   /*
    * Sidebar
    */
