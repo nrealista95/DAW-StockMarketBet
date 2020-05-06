@@ -4,12 +4,12 @@ var myChart = new Chart(ctx, {
   data: {
     labels: ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
     datasets: [{
-      data: [15339, 21345, 18483, 24003, 23489, 24092, 12034],
+      data: [17777, 17000, 15000, 17000, 19999, 20456, 17999],
       lineTension: 0,
       backgroundColor: 'transparent',
-      borderColor: '#007bff',
+      borderColor: '#4682B4',
       borderWidth: 4,
-      pointBackgroundColor: '#007bff'
+      pointBackgroundColor: '#4682B4'
     }]
   },
   options: {
